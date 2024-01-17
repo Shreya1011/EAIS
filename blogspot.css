@@ -1,0 +1,49 @@
+.post-img{
+  height: 404px;
+  overflow: hidden; 
+}
+.post-img img{
+  width: 100%;
+  display: flex;
+  
+}
+.blog-post-content{
+  color: rgb(173, 192, 192);
+}
+.blog-post-content h1{
+  text-align: center;
+}
+.blog-post-content p{
+  font-size: 18px; 
+}
+
+.row{
+  display: flex;
+}
+.more-post{
+  flex-direction: column; 
+  align-items: center;
+}
+.blogpost-meta{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-info{
+  margin: 18px 0;
+}
+.author-info div{
+  padding: 4px 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.social-info{
+  padding-right: 53px;
+  align-self: center;
+  cursor: pointer;
+}
+.more-articles{
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: rgb(40,40,40);
+  position: relative;
+}

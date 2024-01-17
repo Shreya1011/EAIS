@@ -1,0 +1,95 @@
+.contact-us{  
+  height:60vh;
+  position: relative; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us::after {
+  content: "";
+  background-image: url("Untitled\ design.png");
+  position: absolute;
+  top:0;
+  width:100%;
+  height:inherit;
+  opacity:0.3;
+  z-index: -1;
+  padding: 0;
+}
+.custom-h1{
+  font-size:60px;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 15px;
+  padding-top: 100px;
+  padding-left: 23px;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 100px;
+  background-color: #0000;
+}
+.contact-details{
+ padding: 200px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+li{
+  margin-bottom: 10px;
+}
+i{
+  margin-right: 10px;
+}
+.contact{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,1);
+  background-color:#7C6ABF;
+}
+h2{
+  color: white; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  padding:0 2vw;
+}
+h3{
+  color: white;
+  padding-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+form{
+  margin-top: 20px;
+}
+label,input,textarea{
+  display: block;
+  width:fit-content;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+button[type="submit"]{
+  padding: 10px 20px;
+  background-color: #472C4C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type="submit"]:hover{
+  background-color: black;
+}
